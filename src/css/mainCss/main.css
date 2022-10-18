@@ -1,0 +1,27 @@
+/* importacion de la fuente roboto en la aplicacion */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* variables */
+:root {
+    --tone-one: #F2F3F3;
+    --tone-two: #F1F4F6;
+    --tone-three: #ebebeb;
+    --tone-four: #7C7C7C;
+    --tone-five: #FCA311;
+    --tone-six: #14213D;
+    --tone-seven: #000000;
+}
+
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;;
+    background-color: var(--tone-two);
+}

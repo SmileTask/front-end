@@ -1,0 +1,54 @@
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 40px;
+    border-radius: 0 0 24px 24px;
+    box-shadow: 6px 13px 41px rgba(0, 0, 0, 0.08);
+    color: var(--tone-five);
+    background-color: var(--tone-one);
+}
+
+.logoNav {
+    display: flex;
+    align-items: center;
+}
+
+.logoNav img {
+    width: 20px;
+    margin-right: 5px;
+    margin-bottom: 4px;
+}
+
+.logoNav h1 {
+    font-size: 30px;
+}
+
+.linkNav a {
+    text-decoration: none;
+    color: var(--tone-five);
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 7px;
+    transition: .3s;
+}
+
+.linkNav a:hover {
+    background-color: var(--tone-three);
+}
+
+.socialNav a{
+    text-decoration: none;
+    color: var(--tone-five);
+    font-size: 20px;
+    margin: 0 10px;
+    transition: .3s;
+}
+
+.socialNav a i {
+    transition: .3s;
+}
+
+.socialNav a i:hover {
+    transform: scale(1.2);
+}
