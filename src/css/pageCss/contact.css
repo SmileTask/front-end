@@ -1,0 +1,40 @@
+.containerContact {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    z-index: -1;
+}
+.contact-content {
+    position: absolute;
+    top: 150px;
+    right: 60%;
+    margin-top: 20px;
+}
+
+.contentContact-info {
+    text-align: center;
+}
+
+.containerContact h2 {
+    color: var(--tone-five);
+    font-size: 60px;
+
+}
+
+.contentContact-info h3{
+    color: var(--tone-six);
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.contact-info{
+    color: var(--tone-four);
+    margin: 20px 0;
+    font-size: medium;
+    text-align: left;
+}
+
+.contact-icons a{
+    font-size: 60px;
+    color: var(--tone-six);
+}
