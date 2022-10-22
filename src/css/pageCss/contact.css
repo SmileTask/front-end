@@ -8,6 +8,8 @@
     position: absolute;
     top: 150px;
     right: 60%;
+    right: 55%;
+    z-index: 1;
     margin-top: 20px;
 }
 
@@ -34,7 +36,29 @@
     text-align: left;
 }
 
+.contact-foundUs {
+    margin-top: 100px;
+    font-size: large;
+    color: var(--tone-six);
+}
+
 .contact-icons a{
-    font-size: 60px;
+    text-overflow: clip;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: normal;
+    text-align: center;
+    -o-text-overflow: clip;
+    white-space: pre;
+    text-shadow: 0 0 15px var(--tone-five) ,
+    0 0 12px var(--tone-six) , 
+    0 0 3px var(--tone-five) ,
+    0 0 4px var(--tone-five) ,
+    0 0 5px var(--tone-five);
+    font-size: 70px;
     color: var(--tone-six);
 }
