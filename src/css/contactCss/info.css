@@ -1,3 +1,9 @@
+.containerContact {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
 .contact-content {
     position: absolute;
     top: 150px;
