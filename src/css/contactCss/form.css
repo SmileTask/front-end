@@ -1,0 +1,45 @@
+.containerFormContact {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.contactForm-content {
+    position: absolute;
+    height: 100%;
+    width: 90%;
+    left: 60%;
+    margin-top: 10%;
+}
+
+.contentContact-form {
+    text-align: left;
+}
+.contentContact-form form {
+    width: 40%;
+}
+
+.contentContact-form label { 
+    color: var(--tone-six);
+}
+
+.contentContact-form input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid var(--tone-five);
+}
+
+.contentContact-form textarea{
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid var(--tone-five);
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
