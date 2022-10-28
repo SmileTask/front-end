@@ -19,6 +19,9 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <div className="slider">
+                <h1>Aqui va es slider del home</h1>
+            </div>
         </div>
     )
 }
