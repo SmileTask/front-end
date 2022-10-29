@@ -1,0 +1,15 @@
+.content-register {
+    position: absolute;
+    width: 40%;
+    height: 70%;
+    left: 622px;
+    top: 20%;
+    bottom: 20%;
+    align-items: center;
+    justify-content: center;
+    
+
+    background: #272727;
+    box-shadow: -10px -10px 20px rgba(134, 134, 134, 0.25), 10px 10px 20px #1B1B1B;
+    border-radius: 8px;
+}
