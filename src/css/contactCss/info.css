@@ -30,13 +30,15 @@
 
 .contact-info{
     color: var(--tone-four);
-    margin: 20px 0;
+    margin: 60px 0;
     font-size: medium;
     text-align: left;
+    align-items: center;
+    justify-content: center;
 }
 
 .contact-foundUs {
-    margin-top: 100px;
+    margin-top: 1px;
     font-size: large;
     color: var(--tone-six);
 }
