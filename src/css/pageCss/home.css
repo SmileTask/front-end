@@ -66,9 +66,9 @@
   }
   
   .card {
-    margin: 20px;
+    margin: 90px;
     padding: 20px;
-    width: 500px;
+    width: 450px;
     min-height: 200px;
     display: grid;
     grid-template-rows: 20px 50px 1fr 50px;
@@ -220,8 +220,11 @@
       font-weight: bold;
     }
     
-
+    .imagen{
+      margin-top: 80px;
+    }
 
 
 
     /* -------------------Estilos BoxBig fin--------------*/
+
