@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/pageCss/home.css'
+
 import foto from '../assets/iconoAndres.png'
 
 const Tarjeta = (props) => {
@@ -10,7 +11,6 @@ const Tarjeta = (props) => {
       <h2 className="card__title">{props.contenido}</h2>
       <br></br>
       <div><img className="foto" src={foto} /><span><h2 className="nombre" > Andres Moreno Roa <span className="nombre2"><br></br>Dev Front End</span></h2></span>
-
     </div>
     </div>
 

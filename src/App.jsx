@@ -11,11 +11,6 @@ import BoxGrande from './pages/BoxGrande.jsx'
 import Testimonios from './pages/Testimonios.jsx'
 
 
-
-
-
-
-
 function App() {
 
   let textoDummy= `Lorem Ipsum is simply dummy text 
@@ -46,9 +41,11 @@ function App() {
               </div>
             <Testimonios />
             <div className='cards'>
+
                 <Tarjeta titulo='' contenido={textoDummy} />
                 <Tarjeta titulo='' contenido={textoDummy} />
                 <Tarjeta titulo='' contenido={textoDummy} />
+
             </div>
           </div>
           

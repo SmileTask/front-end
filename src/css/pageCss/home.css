@@ -225,6 +225,7 @@
       margin-top: 80px;
     }
 
+
     .foto{
       width: 56.44px;
       height: 56.44px;
@@ -233,6 +234,7 @@
       
     }
     .nombre{
+
 
       display: inline-block;
       vertical-align: top;     
@@ -253,7 +255,5 @@
       color: #BEBEBE;
       
     }
-
-
     /* -------------------Estilos BoxBig fin--------------*/
 
