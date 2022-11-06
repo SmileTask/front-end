@@ -1,3 +1,4 @@
+
 .containerHome {
     width: 100%;
     margin-top: 50px;
@@ -66,9 +67,9 @@
   }
   
   .card {
-    margin: 20px;
+    margin: 90px;
     padding: 20px;
-    width: 500px;
+    width: 450px;
     min-height: 200px;
     display: grid;
     grid-template-rows: 20px 50px 1fr 50px;
@@ -150,7 +151,7 @@
   margin-top: 100px;
   display: flex;
   justify-content: center;
-  font-size: 30px;
+  font-size: 50px;
   text-align: center;
   }
 
@@ -220,8 +221,39 @@
       font-weight: bold;
     }
     
+    .imagen{
+      margin-top: 80px;
+    }
 
+    .foto{
+      width: 56.44px;
+      height: 56.44px;
+      left: 783.77px;
+      top: 4575.12px;
+      
+    }
+    .nombre{
 
+      display: inline-block;
+      vertical-align: top;     
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: #FCA311;
+
+    }
+    .nombre2{
+
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 13px;
+      color: #BEBEBE;
+      
+    }
 
 
     /* -------------------Estilos BoxBig fin--------------*/
+

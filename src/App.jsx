@@ -12,7 +12,12 @@ import Testimonios from './pages/Testimonios.jsx'
 
 
 
+
+
+
+
 function App() {
+
   let textoDummy= `Lorem Ipsum is simply dummy text 
   of the printing and typesetting industry. 
   Lorem Ipsum has been the industry's 
@@ -28,22 +33,23 @@ function App() {
             <Home />
             <Home2 />
             
-              <div class="cards">
-                {Tarjeta('Compañerismo',textoDummy)}
-                {Tarjeta('Ten claras tus metas',textoDummy)}
-                {Tarjeta('Liderazgo de equipo',textoDummy)}
-              </div>
+            <div className='cards'>
+                <Tarjeta titulo='Compañerismo' contenido={textoDummy} color={{color:'#9B88E9'}}/>
+                <Tarjeta titulo='Ten claras tus metas' contenido={textoDummy} color={{color:'#5794FA '}}/>
+                <Tarjeta titulo='Liderazgo de equipo' contenido={textoDummy} color={{color:'#FCA311 '}}/>
+            </div>
             <HomeOfrecimientos />
-            <div class="Box">
-                {BoxGrande('Administrar tus tareas personales',' hola \n esto es un salto en linea')}
-                {BoxGrande('Crea tu equipo personal',textoDummy)}
+              <div className='Box'>
+                  <BoxGrande titulos='Administrar tus tareas personales' contenidos={textoDummy} />
+                  <BoxGrande titulos='Crea tu equipo personal' contenidos={textoDummy} />
+
               </div>
-              <Testimonios />
-              <div class="cards">
-                {Tarjeta('',textoDummy)}
-                {Tarjeta('',textoDummy)}
-                {Tarjeta('',textoDummy)}
-              </div>
+            <Testimonios />
+            <div className='cards'>
+                <Tarjeta titulo='' contenido={textoDummy} />
+                <Tarjeta titulo='' contenido={textoDummy} />
+                <Tarjeta titulo='' contenido={textoDummy} />
+            </div>
           </div>
           
         }/>
