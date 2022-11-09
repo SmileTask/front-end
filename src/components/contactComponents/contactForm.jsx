@@ -21,6 +21,8 @@ const contactForm = () => {
                         <textarea name="commentary" id="commentary" cols="30" rows="10" placeholder="Write anything you want to tell us"></textarea>
                     </label>
                     
+                    <br />
+                    <button className='contactButton'>SEND</button>
                 </form>
             </div>
         </div>

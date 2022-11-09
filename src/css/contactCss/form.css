@@ -7,13 +7,19 @@
 }
 
 .contentContact-form {
+    display: flex;
     text-align: left;
+    align-items: center;
+    align-content: center;
+
 }
 .contentContact-form form {
     width: 40%;
 }
 
-.contentContact-form label { 
+.contentContact-form label {
+    margin: 5%;
+
     color: var(--tone-six);
 }
 
@@ -24,6 +30,7 @@
     box-sizing: border-box;
     border: none;
     border-bottom: 2px solid var(--tone-five);
+    margin-bottom: 5%;
 }
 
 .contentContact-form textarea{
@@ -38,3 +45,24 @@
     font-size: 16px;
     resize: none;
 }
+
+.contactButton {
+    position: absolute;
+    align-items: center;
+    align-content: center;
+    width: 30%;
+    height: 5%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #C8B936;
+    background: #272727;
+    box-shadow: -6px -6px 13px rgba(160, 160, 160, 0.25), 6px 6px 13px #161616;
+    border-radius: 6px;
+    border: none;
+    margin-top: 2.5%;
+}
+
