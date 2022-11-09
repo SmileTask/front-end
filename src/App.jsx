@@ -4,6 +4,7 @@ import Home from './pages/Home.jsx'
 import About from './pages/About.jsx'
 import Contact from './pages/Contact.jsx'
 import Register from './pages/Register.jsx'
+import Login from './pages/Login.jsx'
 import Tarjeta from './pages/Tarjeta.jsx'
 import { Route, Routes } from 'react-router-dom'
 import Home2 from './pages/Home2.jsx'
@@ -47,7 +48,12 @@ function App() {
             <Register />
           </div>
         }/>
-      </Routes>
+        <Route path='/login' element={
+          <div>
+            <Login />
+          </div>
+        }/>
+      </Routes>  
     </div>
   )
 }

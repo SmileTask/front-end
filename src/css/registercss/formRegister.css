@@ -5,11 +5,7 @@
     height: 669px;
     left: 50%;
     transform: translate(-50%);
-    right: 40%;
-    top: 200px;
-    bottom: 20%;
-    align-items: center;
-    justify-content: center;
+    top: 125px;
     background: #272727;
     box-shadow: -10px -10px 20px rgba(134, 134, 134, 0.25), 10px 10px 20px #1B1B1B;
     border-radius: 8px;
