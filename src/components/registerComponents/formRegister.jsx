@@ -29,6 +29,13 @@ const registerForm = () => {
     axios.post(api_uri+'/api/user/register', {...data} )
     .then(function (response) {
       console.log(response);
+      response.data ? (
+        window.alert('Ususario creado con exito'),
+        location.href='/login' 
+      ) : ( 
+        window.alert('El usuario no se ha podido crear correctamente'),
+        location.href='/register'
+      )
     })
     .catch(function (error) {
       console.log(error)
