@@ -6,7 +6,7 @@ const LoginHeader = () => {
     return(
         <div className="headerLogin">
             <p>HI, hello again :D</p>
-            <p>¿No tienes cuenta?<Link>Create una aqui</Link></p>
+            <p>¿No tienes cuenta?<Link to="/register">Create una aqui</Link></p>
         </div>
     )
 }

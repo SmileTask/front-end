@@ -1,0 +1,35 @@
+.headerLogin {
+    margin: 0;
+    padding: 0;
+}
+
+.headerLogin p:nth-child(1) {
+    font-family: 'Roboto';
+    margin-top: 83px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #C8B936;
+
+}
+
+.headerLogin p:nth-child(2) {
+    font-family: 'Roboto';
+    margin-top: 70px;
+    margin-bottom: 10px;
+    padding-left: 72px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.headerLogin p:nth-child(2) a {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration: underline;
+    color: #FFFFFF;
+}
