@@ -24,6 +24,10 @@ const loginForm = () => {
         axios.post(api_uri+"/api/user/login", {...data}
         ).then(function(response) {
             console.log(response);
+            response.data.response ? location.href='/dashboard' : (
+              window.alert('Las credenciales ingresadas no son correctas'),
+              location.href='/login'
+            )
         }).catch(function(error) {
             console.log(error);
         });
