@@ -5,6 +5,7 @@ import About from './pages/About.jsx'
 import Contact from './pages/Contact.jsx'
 import Register from './pages/Register.jsx'
 import Login from './pages/Login.jsx'
+import Dashboard from './pages/Dashboard.jsx'
 import Tarjeta from './pages/Tarjeta.jsx'
 import { Route, Routes } from 'react-router-dom'
 import Home2 from './pages/Home2.jsx'
@@ -52,6 +53,11 @@ function App() {
           <div>
             <Login />
           </div>
+        }/>
+        <Route path='/dashboard' element={
+            <div>
+              <Dashboard />
+            </div>
         }/>
       </Routes>  
     </div>
