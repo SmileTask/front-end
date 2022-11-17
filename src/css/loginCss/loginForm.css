@@ -20,6 +20,7 @@
     inset 6px 6px 10px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
   border: none;
+  color: #C8B936;
 }
 
 .formLogin form button {
