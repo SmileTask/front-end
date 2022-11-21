@@ -1,0 +1,9 @@
+.tasksContainer {
+    position: absolute;
+    top: 430px;
+    left: 410px;
+    width: 1450px;
+    height: 500px;
+    background-color: whitesmoke;
+
+}

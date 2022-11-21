@@ -25,6 +25,13 @@ const createTask = () => {
         axios.post(api_uri+'/api/task', {...data} 
         ).then(function (response) {
             console.log(response)
+            response.data.response ? (
+                window.alert(response.data.message),
+                location.href='/dashboard'
+            ) : (
+                window.alert(response.data.message),
+                location.href='/dashboard'
+            )
         }
         ).catch(function (response) {
             console.log(response)
