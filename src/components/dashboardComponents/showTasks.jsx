@@ -1,7 +1,7 @@
 import axios from "axios"
 import { useReducer , useEffect } from "react"
 import "../../css/dashboardCss/showTasks.css"
-import Buble from "../loadingComponent/Buble"
+
 import Task from './task.jsx'
 
 const reducer = (state, action) => {
@@ -40,7 +40,7 @@ const showTasks = () => {
     <div className="tasksContainer">
       
         {loading ? (
-          <Buble />
+          console.log(loading)
         ) : error ? (
           console.log(error)
         ) : (

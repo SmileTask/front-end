@@ -9,7 +9,15 @@ function Task(props) {
         <div className="containerTask" key={task}>
             <div className="infoTask">
                 <div className='dataTask'>
-                    {task.title} - {task.time}
+                    <div className='titleTask'>
+                        {task.title} -
+                    </div>
+                    <div className='time'>
+                        {task.time}
+                    </div>
+                    <div className='description'>
+                        {task.description}
+                    </div>
                 </div>
                 <div className='actions'>
                     <button>Actualizar</button>

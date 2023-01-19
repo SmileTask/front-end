@@ -4,4 +4,52 @@
 
 }
 
-.
+.dataTask {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.titleTask {
+    text-transform: uppercase;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    margin-right: 10px;
+    
+    color: #C8B936;
+}
+
+.time {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #C8B936;
+}
+
+.description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #C8B936;
+}
+
+.actions button{
+    align-items: flex-end;
+    width: 199.33px;
+    height: 45.56px;
+    background: #272727;
+    box-shadow: 2px 2px 13px rgba(18, 18, 18, 0.88), -2px -2px 13px rgba(173, 173, 173, 0.25);
+    border-radius: 6px;
+    color: #C8B936;
+    border: none;
+}
